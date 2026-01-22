@@ -1,0 +1,5 @@
+document.getElementById("surveyForm").onsubmit = function(e) {
+  e.preventDefault();
+  document.getElementById("result").innerText =
+    "Thank you! Survey submitted successfully.";
+};
